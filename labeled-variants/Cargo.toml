@@ -1,0 +1,15 @@
+[package]
+name = "labeled-variants"
+version = "0.1.0"
+edition = "2018"
+
+authors = [ "Heiko Seeberger <mail@heikoseeberger.rocks>" ]
+license-file = "../LICENSE"
+homepage = "https://github.com/hseeberger/labeled-variants"
+repository = "https://github.com/hseeberger/labeled-variants"
+
+[dependencies]
+labeled-variants-derive = { path = "../labeled-variants-derive", optional = true }
+
+[features]
+derive = [ "labeled-variants-derive" ]

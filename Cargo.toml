@@ -1,0 +1,2 @@
+[workspace]
+members = [ "labeled-variants", "labeled-variants-derive", "labeled-variants-tests" ]

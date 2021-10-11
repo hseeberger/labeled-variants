@@ -1,0 +1,8 @@
+[package]
+name = "labeled-variants-tests"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+labeled-variants = { path = "../labeled-variants" }
+labeled-variants-derive = { path = "../labeled-variants-derive" }

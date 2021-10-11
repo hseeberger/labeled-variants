@@ -1,0 +1,18 @@
+[package]
+name = "labeled-variants-derive"
+version = "0.1.0"
+edition = "2018"
+
+authors = [ "Heiko Seeberger <mail@heikoseeberger.rocks>" ]
+license-file = "../LICENSE"
+homepage = "https://github.com/hseeberger/labeled-variants"
+repository = "https://github.com/hseeberger/labeled-variants"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+convert_case = "0"
+proc-macro2 = "1"
+syn = "1"
+quote = "1"
