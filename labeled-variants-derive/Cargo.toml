@@ -3,10 +3,13 @@ name = "labeled-variants-derive"
 version = "0.1.0"
 edition = "2018"
 
+description = "Marco implementation of labels for enum variants"
 authors = [ "Heiko Seeberger <mail@heikoseeberger.rocks>" ]
 license-file = "../LICENSE"
+readme = "README.md"
 homepage = "https://github.com/hseeberger/labeled-variants"
 repository = "https://github.com/hseeberger/labeled-variants"
+documentation = "https://github.com/hseeberger/labeled-variants"
 
 [lib]
 proc-macro = true
